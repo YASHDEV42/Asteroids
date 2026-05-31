@@ -11,7 +11,6 @@ class SpriteInfo(TypedDict):
     rad: NotRequired[float]
     rot: NotRequired[float]
 
-
 class GroupInfo(TypedDict):
     count: int
     sprites: list[SpriteInfo]
